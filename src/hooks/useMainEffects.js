@@ -68,7 +68,8 @@ const useMainEffects = () => {
     window.addEventListener("load", initSwiper);
 
     /** 🟢 Initialisation Glightbox */
-    const glightbox = GLightbox({ selector: ".glightbox" });
+    // const glightbox = GLightbox({ selector: ".glightbox" });
+    GLightbox({ selector: ".glightbox" });
 
     /** 🟢 Initialisation Isotope */
     document.querySelectorAll(".isotope-layout").forEach((isotopeItem) => {
